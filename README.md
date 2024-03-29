@@ -68,7 +68,7 @@ Genomic data plays a crucial role in modern healthcare, holding immense potentia
   
 **TrueNil High-Level Architecture**
 
-image tbd
+
 
 **Component Description**
 
@@ -89,7 +89,7 @@ It processes information received by Agents and sends it to the web backend.
 TN agent scans data stored in S3 and DynamoDB to detect sensitive and non-sensitive information and provide one top view of security status.Audit log of every action made by the agent, including communication with the backend.
 
 **Setup **
-work in progress 
+https://docs.google.com/document/d/1uHhVL5CU5ILJ9jL2BnoIv8d16uCah7alLUAnPsJLzNM/edit#heading=h.mrx2cszr29h
 
 We will provide installation scripts soon for 1. agent 2. agent backend 3. web front 4. web backend
 
