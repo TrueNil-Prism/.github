@@ -1,5 +1,5 @@
 # .github
-**TrueNil: Genomic data discovery & protection tool**
+**TrueNil: Genomic Data Discovery & Protection tool**
 
 **Overview**
 TrueNil is an open-source sensitive data discovery and protection tool created to raise awareness among developers and security professionals regarding the security challenges posed by genomic data. 
@@ -66,3 +66,42 @@ Genomic data plays a crucial role in modern healthcare, holding immense potentia
 * IT, developers, security engineers working with applications and systems processing genomic data
 * Data privacy officers or chief security officers who would like to see one stop view of genomic data and their security posture
   
+**TrueNil High-Level Architecture**
+
+image tbd
+
+**Component Description**
+
+* Web Backend
+
+Backend application to store metadata, user management and information related to access control and encryptionIt connects with other common elements such as dartstores, cache, notification etc
+
+* Web Frontend
+
+Control plane for Admin users containing user enrollment, organizational onboarding. Application plane for other users to see data security posture
+
+* Agent backend
+
+It processes information received by Agents and sends it to the web backend.
+
+*Agent 
+
+TN agent scans data stored in S3 and DynamoDB to detect sensitive and non-sensitive information and provide one top view of security status.Audit log of every action made by the agent, including communication with the backend.
+
+**Setup **
+work in progress 
+
+We will provide installation scripts soon for 1. agent 2. agent backend 3. web front 4. web backend
+
+**Troubleshooting**
+
+Please contact tru@truenil.io
+
+**Warning**
+
+This tool is created purely for learning and educational purposes. The author and development team will not be responsible for any harmful actions.
+
+**Acknowledgments**
+
+It takes a village to build an innovative tool from scratch and besides the development team, many friends have contributed to this open-source project.
+
