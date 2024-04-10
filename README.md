@@ -1,4 +1,4 @@
-# .github
+# Readme.github
 **TrueNil: Genomic Data Discovery & Protection tool**
 
 **Overview**
@@ -76,17 +76,25 @@ Genomic data plays a crucial role in modern healthcare, holding immense potentia
 
 Backend application to store metadata, user management and information related to access control and encryptionIt connects with other common elements such as dartstores, cache, notification etc
 
+Source code: https://github.com/TrueNil-Prism/web-backend
+
 * Web Frontend
 
-Control plane for Admin users containing user enrollment, organizational onboarding. Application plane for other users to see data security posture
+Control plane for Admin users containing user enrollment, organizational onboarding. Application plane for other users to see data security posture.
+
+Source code: https://github.com/TrueNil-Prism/web-frontend
 
 * Agent backend
 
 It processes information received by Agents and sends it to the web backend.
 
+Source code: https://github.com/TrueNil-Prism/agent-backend
+
 *Agent 
 
 TN agent scans data stored in S3 and DynamoDB to detect sensitive and non-sensitive information and provide one top view of security status.Audit log of every action made by the agent, including communication with the backend.
+
+Source code: https://github.com/TrueNil-Prism/agent
 
 **Setup **
 https://docs.google.com/document/d/1uHhVL5CU5ILJ9jL2BnoIv8d16uCah7alLUAnPsJLzNM/edit#heading=h.mrx2cszr29h
