@@ -103,7 +103,7 @@ We will provide installation scripts soon for 1. agent 2. agent backend 3. web f
 
 **Troubleshooting**
 
-Please contact tru@truenil.io
+Please contact hare.krishna.rai@truenil.io
 
 **Warning**
 
